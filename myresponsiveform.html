@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="./css/style.css">
+
+<div class="topnav">
+  <a class="active" href="index.html">Back to ME0NCONILEX</a>
+  <div class="login-container">
+    <form action="me0nly_form.php">
+      <input type="text" placeholder="Username" name="username">
+      <input type="text" placeholder="Password" name="psw">
+      
+      <a class="active" href="index.html">Login</a>
+    </form>
+  </div>
+</div> 
+
+  <img id="mycow" src="./pics/mycow.gif"> 
+
+  <script>
+    mycow.onclick = function() {
+      let start = Date.now();
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+         mycow.style.left = timePassed / 5 + 'px';
+         if (timePassed > 2000) clearInterval(timer);
+      }, 20);
+    }
+  </script>
+
+<div style="padding-left:16px">
+  <a>This is my Responsive Login Form (only exempel) in Navbar</a>
+</div>
+
+</body>
+</html>

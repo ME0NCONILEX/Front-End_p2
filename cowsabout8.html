@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>FrontEnd CSS WS2</title>
+<link rel="stylesheet" href="./css/ws1.css">
+<meta charset="utf-8">  
+    <meta name="generator" content="my HTML Editor - ©ME0NCONILEX">
+    <meta name="dcterms.created" content="">
+    <meta name="description" content="Joking but working with Html & CSS... and cows">
+    <meta name="keywords" content="HTML, CSS, PHP, FrontEnd">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+  <div class="topnav">
+   <a href="index.html" style="background-color:#FF1DD6; width: 160px;">Cow's site</a> 
+    <a href="cowsabout1.html" style="background-color:#F17FFF; width: 102px">Item 1</a>
+    <a href="cowsabout2.html" style="background-color:#F3A0FF;">Item 2</a>
+    <a href="cowsabout3.html" style="background-color:#F17FFF;">Item 3</a>
+    <a href="cowsabout4.html" href="cowsabout4.html" style="background-color:#F3A0FF;">Item 4</a>
+    <a href="cowsabout5.html" style="background-color:#F17FFF;">Item 5</a>
+    <a href="cowsabout6.html" style="background-color:#F3A0FF;">Item 6</a>
+    <a href="cowsabout7.html" style="background-color:#F17FFF;">Item 7</a>
+    <a href="cowsabout8.html"  style="background-color:#F3A0FF;">Item 8</a>
+    <a href="cowsabout9.html" style="background-color:#F17FFF; width: 102px">Item 9</a>
+    <a href="myresponsiveform.html" style="background-color:#787878; width: auto;">Cow Login</a>
+  </div>
+<div class="content">     
+
+<div class="box1">               
+   <p><b><a href="mytodo.html" style="font-size: 26px; text-transform: uppercase; text-shadow: 2px 2px #e2c90c; text-decoration:none;">About Cows</a></b></p>
+</div> 
+      
+<div class="newbox"> 
+
+<head>
+  <style>
+    #mycow{
+      position: relative;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<div class="split left">
+  <p><a style="margin-left: 15px";>I am a cow... Click my tail, please<i>!</i></a></p>
+  <img id="mycow" src="./pics/mycow.gif">  
+  <script>
+    mycow.onclick = function() {
+      let start = Date.now();
+      let timer = setInterval(function() {
+        let timePassed = Date.now() - start;
+         mycow.style.left = timePassed / 5.9 + 'px';
+         if (timePassed > 2000) clearInterval(timer);
+      }, 20);
+    }
+  </script>
+</div>
+ 
+<div class="split right" style="margin-left: 25px;"> 
+<p><b>What about troubleshooting process (in detail), i.e. which steps and tools can use to debug the code? </b></p> 
+<p style="vertical-align: top; "><a>There is no such thing as perfect software without bugs... <br />
+Anyone learning programming will undoubtedly come across the term “debugging” sooner or later. This process refers to a complete check of the source code of a computer program, which aims to uncover any errors contained in the code. If you want your developed software to work as intended on all target platforms and devices, using a debugger will be absolutely essential. In the following article, you’ll learn what a debugger is, how these useful programs work, and where they are typically used.
+Debuggers are important tools for troubleshooting in software. 
+A debugger is a computer program that allows you to uncover and diagnose errors in computer software. The aim of debugging tools is to ensure the long-term functionality of the given software on all intended devices and platforms. For this reason, many debuggers not only examine the respective source code but also the interaction with the executing operating system and underlying hardware. 
+The debugging process takes place during runtime, meaning the software does not need to be closed down for the check.<br />
+Debuggers are computer programs that help developers when troubleshooting in software. 
+The errors detected while debugging – also known as bugs – can be easily resolved, ensuring the long-term functionality of the software.
+</a></p>  
+                   </div>
+            </div>
+      </div> 
+</div>
+
+<div class="footer" style="height:40px;"> 
+  <a style="padding: 375px; margin-top: 20px;">Cow's feet</a>ME0NCONILEX
+  <a style="margin-top: 20px;">Sometimes, <i>the chaos</i> can be a good temporary solution...</a>  
+</div>
+
+ <div class="divanim1"></div>   
+ <div class="divanim2"></div>    
+  
+<div style="padding-left:1px">
+  <a>(*) This is my Responsive Login Form - only exempel...</a><br />
+  <a> ...so, you may build your own php file if you are intrested... </a>
+                 </div> 
+             </div> 
+       </body>
+</html>
